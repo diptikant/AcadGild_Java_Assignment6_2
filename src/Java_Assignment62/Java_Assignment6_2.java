@@ -32,8 +32,10 @@ public class Java_Assignment6_2
 // Custom exception class declaration
 class NegetiveAgeException extends Exception 
 {
+   
+	private static final long serialVersionUID = 1L;
 
-    public NegetiveAgeException() //constructor of Custom exception class
+	public NegetiveAgeException() //constructor of Custom exception class
     {     
     	super("The Age you've entered is Negetive so invalid");   //Custom exception message    
     }
